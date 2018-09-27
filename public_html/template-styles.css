@@ -389,13 +389,14 @@ nav.top-navigation {width: 100%;}
 }
 
 .catalog_unit .label  {
-  position: relative;
   width: 45px;
   height: 45px;
-  top: 5px;
-  left: 15px;
- z-index: 501;
 }
+
+.shilds{
+	position: absolute;
+}
+
 .catalog_unit .label.new  {background: url(images/label_new.png) 0 0 no-repeat;}
 .catalog_unit .label.act  {background: url(images/label_act.png) 0 0 no-repeat;}
 .catalog_unit .label.discount  {background: url(images/label_discount.png) 0 0 no-repeat;}
